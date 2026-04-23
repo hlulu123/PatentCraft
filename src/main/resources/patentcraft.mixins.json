@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.patentcraft.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CraftingResultSlotMixin",
+		"ItemStackMixin",
+		"PlayerEntityMixin",
+		"SmithingScreenHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

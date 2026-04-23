@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "patentcraft",
+	"version": "${version}",
+	"name": "PatentCraft",
+	"description": "Adds item patents, patent books, and lectern-based patent management.",
+	"icon": "assets/patentcraft/icon.png",
+	"authors": [
+		"Codex"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.patentcraft.PatentCraft"
+		],
+		"client": [
+			"com.patentcraft.client.PatentCraftClient"
+		]
+	},
+	"mixins": [
+		"patentcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
